@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3C2F2F;
+}
+
+/* Header */
+header {
+    background-color: #6F4436;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Center Logo */
+.logo-container img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Navbar Glow Effect */
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #DFCCAF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section First Letter Styling */
+#about p::first-letter {
+    font-size: 2em;
+    color: #3C2F2F;
+    font-weight: bold;
+}
+
+/* Menu Grid */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    background-color: #F4E1C6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect on Menu Items */
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Menu Images */
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    gap: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #6F4436;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3C2F2F;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #6F4436;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #6F4436;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}

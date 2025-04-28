@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zee Coffee - A delightful coffee experience">
+    <title>Zee Coffee - Your Perfect Coffee</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="zee.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="images/logoo.png" alt="Zee Coffee Logo">
+            </div>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order Online</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Zee Coffee</h2>
+        <p>Welcome to Zee Coffee, your cozy haven for all things coffee! At Zee Coffee,
+           we believe in crafting the perfect cup, using only the finest beans sourced
+           from around the world. Whether you’re looking for a rich espresso, a smooth
+           latte, or a refreshing cold brew, our skilled baristas are here to serve you 
+           with a smile. Join us to experience the warm ambiance, delightful aromas,
+           and a community of coffee lovers. Your perfect brew awaits!</p>
+        <video width="320" height="240" controls>
+            <source src="video/video.MOV" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h3>Ice coffee latte</h3>
+                <p>Cool down with our Iced Latte, featuring smooth espresso blended with creamy milk and served over ice.</p>
+                <img src="images/icelatte.jpg" alt="Ice coffee Latte">
+            </div>
+            <div class="menu-item">
+                <h3>Ice Matcha latte</h3>
+                <p>Chill out with our Iced Matcha Latte, a refreshing blend of vibrant matcha and creamy milk over ice.</p>
+                <img src="images/icematcha.JPEG" alt="Ice Matcha latte">
+            </div>
+            <div class="menu-item">
+                <h3>Ice Americano</h3>
+                <p>Savor the bold flavor of our Iced Americano, crafted with rich espresso and chilled water over ice.</p>
+                <img src="images/americano.JPEG" alt="ice Americano">
+            </div>
+            <div class="menu-item">
+                <h3>Hot matcha latte</h3>
+                <p>Delight in our Hot Matcha Latte, a creamy blend of vibrant matcha green tea and steamed milk, creating a soothing and flavorful beverage.</p>
+                <img src="images/hot matcha latte.JPEG" alt="hot matcha latte">
+            </div>
+            <div class="menu-item">
+                <h3>Espresso shot</h3>
+                <p>Experience the bold intensity of our Espresso Shot, a rich and concentrated coffee brewed to perfection in a single, flavorful burst.</p>
+                <img src="images/hot esspreso shot.JPEG" alt="esspreso shot">
+            </div>
+            <div class="menu-item">
+                <h3>Hot coffee latte</h3>
+                <p>Enjoy our Hot Coffee Latte, a smooth blend of rich espresso and velvety steamed milk, topped with a frothy finish.</p>
+                <img src="images/hot latte.JPEG" alt="hot latte">
+            </div>
+        </div>
+    </section>
+
+    <section id="order">
+        <h2>Order Online</h2>
+        <p>Craving a cup of coffee? Order your favorite drink now!</p>
+        <form id="orderForm" action="#">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="coffee">Select Coffee</label>
+            <select id="coffee" name="coffee">
+                <option value="Ice latte">Ice latte</option>
+                <option value="Ice matcha latte">Ice matcha latte</option>
+                <option value="Ice americano">Ice americano</option>
+                <option value="Hot matcha latte">Hot matcha latte</option>
+                <option value="Espresso shot">Espresso shot</option>
+                <option value="Hot coffee latte">Hot coffee latte</option>
+            </select>
+            
+            <button type="submit">Submit Order</button>
+        </form>
+        <p id="orderMessage"></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Visit us at 123 Coffee Street, Coffeeville.</p>
+        <audio controls>
+            <source src="voice note /RPReplay_Final1743700591.mp3" type="audio/mp3">
+            
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Zee Coffee - All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
